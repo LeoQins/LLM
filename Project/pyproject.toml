@@ -1,0 +1,18 @@
+[project]
+name = "ai-agent-rag-lab"
+version = "0.1.0"
+description = "Learning & resume-ready project for AI Agent + RAG + Automation using Python, FastAPI, LangChain"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+requires-python = ">=3.9"
+
+[project.dependencies]
+httpx = "^0.27.0"
+python-dotenv = "^1.0.1"
+faiss-cpu = "^1.8.0.post1"
+sentence-transformers = "^3.3.0"
+fastapi = "^0.115.0"
+uvicorn = "^0.32.0"
+
+[tool.ruff]
+line-length = 100

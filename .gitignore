@@ -1,0 +1,23 @@
+# 忽略某个具体文件
+#secret.txt
+
+# 忽略某个目录（末尾加 /）
+#logs/
+#build/
+#dist/
+
+# 忽略某种后缀的所有文件
+#*.log
+#*.tmp
+#*.bak
+
+# 忽略某个目录下的所有 .txt
+#docs/*.txt
+
+# 忽略所有 .env 文件
+*.env
+.env.example
+/Project/.venv/
+
+# 不忽略某个特别的文件（! 取反）
+#!important.log
